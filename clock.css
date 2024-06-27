@@ -1,0 +1,39 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+#clock {
+    font-size: 48px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #2da5c0, 0 0 10px #2da5c0, 0 0 15px #2da5c0, 0 0 20px #2da5c0, 0 0 30px #2da5c0, 0 0 40px #2da5c0, 0 0 50px #2da5c0, 0 0 60px #2da5c0;
+    }
+    to {
+        text-shadow: 0 0 2px #24ca53, 0 0 4px #24ca53, 0 0 6px #24ca53, 0 0 8px #24ca53, 0 0 10px #24ca53, 0 0 12px #24ca53, 0 0 14px #24ca53, 0 0 16px #24ca53;
+    }
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('fonts/JetBrainsMono-Regular.ttf') format('truetype'),
+         url('fonts/JetBrainsMono-Regular.woff') format('woff'),
+         url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: 'JetBrains Mono';
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
